@@ -1,6 +1,10 @@
+.bio {
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(0.5em + 1vw);
+}
+
 .photo {
     text-align: center;
-  
   }
   
   .ari-photo {

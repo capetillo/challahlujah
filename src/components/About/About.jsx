@@ -9,7 +9,7 @@ const About = (props) => {
             <Row className="p-5 no-gutters">
                 <Col md={2}>
                 </Col>
-                <Col md={4} className="d-flex align-items-center justify-content-center pr-5">
+                <Col md={4} className="d-flex align-items-center justify-content-center pr-sm-5">
                     <p className="bio">
                     Ari is a Ventura native now living in Santa Barbara who has been baking challah 
                     for over 10 years! She first learned as an undergraduate 
@@ -25,7 +25,7 @@ const About = (props) => {
                     way to take care of ourselves and the earth. 
                     </p>
                 </Col>
-                <Col sm={12} md={4} className="d-flex align-items-center justify-content-center img-responsive pl-5 pt-4">
+                <Col sm={12} md={4} className="d-flex align-items-center justify-content-center img-responsive pl-sm-5 pt-4">
       <div className="photo">
         <div className="ari-photo">
           <Image src={ari} alt="ari, the baker" id="ari" />
