@@ -1,3 +1,8 @@
+.about-ari-header {
+    font-family: 'Alata', sans-serif;
+    font-size: calc(1.5em + 2vw);
+}
+
 .bio {
     font-family: 'Roboto', sans-serif;
     font-size: calc(0.5em + 1vw);
@@ -13,4 +18,5 @@
   
   #ari {
     width: 40vh;
+    border-radius: 1%;
   }

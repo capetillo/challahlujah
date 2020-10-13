@@ -6,10 +6,15 @@ import {Row, Col, Image} from 'react-bootstrap';
 const About = (props) => {
     return (
         <div className="about">
-            <Row className="p-5 no-gutters">
+            <Row className="d-flex align-items-center justify-content-center pt-3">
+                <div className="about-header">
+                    <p className="about-ari-header">about ari</p>
+                </div>
+            </Row>
+            <Row className="px-5 no-gutters">
                 <Col md={2}>
                 </Col>
-                <Col md={4} className="d-flex align-items-center justify-content-center pr-sm-5">
+                <Col sm ={12} md={4} className="d-flex align-items-center justify-content-center mr-sm-5">
                     <p className="bio">
                     Ari is a Ventura native now living in Santa Barbara who has been baking challah 
                     for over 10 years! She first learned as an undergraduate 
@@ -25,15 +30,15 @@ const About = (props) => {
                     way to take care of ourselves and the earth. 
                     </p>
                 </Col>
-                <Col sm={12} md={4} className="d-flex align-items-center justify-content-center img-responsive pl-sm-5 pt-4">
-      <div className="photo">
-        <div className="ari-photo">
-          <Image src={ari} alt="ari, the baker" id="ari" />
-        </div>
-      </div>
-    </Col>
-    <Col md={2}>
-    </Col>
+                <Col sm={12} md={4} className="d-flex align-items-center justify-content-center img-responsive ml-sm-5 pt-4">
+                    <div className="photo">
+                        <div className="ari-photo">
+                            <Image src={ari} alt="ari, the baker" id="ari" />
+                        </div>
+                    </div>
+                </Col>
+                <Col md={2}>
+                </Col>
             </Row>
         </div>
     )
