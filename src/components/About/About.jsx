@@ -1,11 +1,11 @@
 import React from 'react';
 import './About.css';
-import ari from '../Images/ari.jpeg'
+import ari from '../Images/ari.jpg'
 import {Row, Col, Image} from 'react-bootstrap';
 
 const About = (props) => {
     return (
-        <div className="about">
+        <div className="about" id="about">
             <Row className="d-flex align-items-center justify-content-center pt-3">
                 <div className="about-header">
                     <p className="about-ari-header">about ari</p>

@@ -1,0 +1,9 @@
+.reserve-header {
+    font-family: 'Alata', sans-serif;
+  
+}
+
+#plain, #poppyseed, #sesame, #zaatar{
+    width: 35vw;
+    border-radius: 1%;
+}
