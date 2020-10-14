@@ -1,9 +1,77 @@
 .reserve-header {
     font-family: 'Alata', sans-serif;
-  
 }
 
-#plain, #poppyseed, #sesame, #zaatar{
-    width: 35vw;
+#plain, #poppyseed, #sesame, #zaatar, #plain2, #poppyseed2, #sesame2, #zaatar2{
+    width: 40vw;
     border-radius: 1%;
+}
+
+#plain2 {
+    opacity: 0;
+    -webkit-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out;
+}
+
+.plain {
+    position: absolute;
+    -webkit-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out; 
+  }
+
+.plain2 {
+    position: absolute;
+}
+  
+  .plain:hover {
+    opacity: 0;
+  }
+
+.plain2:hover #plain2{
+   
+    opacity: 1;
+    -webkit-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out;
+}
+
+  #poppyseed img {
+    position:absolute;
+    -webkit-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out;
+}
+  
+  #poppyseed img:hover {
+    opacity:0;
+}
+
+  #sesame img {
+    position:absolute;
+    -webkit-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out;
+}
+  
+  #sesame img:hover {
+    opacity:0;
+}
+
+#zaatar img {
+    position:absolute;
+    -webkit-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out;
+}
+  
+  #zaatar img:hover {
+    opacity:0;
 }
