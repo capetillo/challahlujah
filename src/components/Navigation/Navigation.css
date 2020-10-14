@@ -1,0 +1,57 @@
+.links {
+    cursor: pointer;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition:  0.5s;
+    padding-bottom: 2vw;
+    z-index: 99;  
+    color: rgb(232, 184, 115);
+    background-color: white;
+}
+#navbarNav:hover {
+    cursor: pointer;
+}
+
+.menu-links {
+    padding: 2vw 0;     
+}
+
+#boton {
+    background-color: rgb(14, 26, 45);  
+    width: 47px;
+    height: 34px;
+    border-color: transparent;  
+}
+
+ #boton:focus {
+    box-shadow:none !important;
+    outline: none !important;
+}
+
+#boton:active {
+    border-color: transparent;
+}
+
+.line {
+    float: left;
+    height: 3px;
+    background-color: rgb(232, 184, 115);
+    margin: 6px;
+    border-radius: 10%;
+}
+
+#line1 {
+    margin: 3.5px 0;
+    width: 180%;
+}
+
+#line2 {
+    margin: 3.5px 0;
+    width: 150%;
+}
+
+#line3 {
+    margin: 3.5px 0;
+    width: 100%;
+}

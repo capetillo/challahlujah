@@ -2,6 +2,9 @@
   background-color:rgb(244, 213, 180);
   padding: 3vw;
 }
+.about-header {
+  text-align: center;
+}
 
 .bio {
     font-family: 'Roboto', sans-serif;

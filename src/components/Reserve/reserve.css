@@ -4,7 +4,8 @@
 
 .reserve-header {
     font-family: 'Alata', sans-serif;
-    color: rgb(186, 176, 180)
+    color: rgb(186, 176, 180);
+    text-align: center;
 }
 
 #plain, #poppyseed, #sesame, #zaatar{

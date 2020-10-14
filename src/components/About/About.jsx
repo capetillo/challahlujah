@@ -8,7 +8,7 @@ const About = (props) => {
         <div className="about" id="about">
             <Row className="d-flex align-items-center justify-content-center pt-3">
                 <div className="about-header">
-                    <p className="about-ari-header">about ari</p>
+                    <p className="about-ari-header">about the baker</p>
                 </div>
             </Row>
             <Row className="px-5 no-gutters">
