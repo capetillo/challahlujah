@@ -1,5 +1,13 @@
+.header {
+    background-color: rgb(250, 249, 247);
+}
+
 .challah-by-ari {
     text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-size: calc(4em + 2vw);
+    letter-spacing: 0.3vw;
+    color: rgb(209, 178, 198);
 }
 
 #photo-header1, #photo-header2, #photo-header3 {

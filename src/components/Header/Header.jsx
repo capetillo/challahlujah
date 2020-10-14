@@ -10,7 +10,7 @@ const Header = (props) => {
         <div className="header">
             <Row className="mt-5 pt-5">
                 <Col className="mt-5 mb-3">
-                    <p className="challah-by-ari">challah by ari</p>
+                    <h1 className="challah-by-ari">challah by ari</h1>
                 </Col>
             </Row>
             <Row >
