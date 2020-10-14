@@ -25,7 +25,7 @@ const About = (props) => {
                     it to a larger audience: these strange pandemic times have 
                     inspired her to be of service to the community. The challah 
                     only has organic ingredients, and when possible local ones 
-                    at that (like Dylan's raw hive honey!). Now more than ever, 
+                    at that (like <a href="http://wyldeworks.com/dylansrawhivehoney" target="blank">Dylan's raw hive honey!</a>). Now more than ever, 
                     supporting our local and sustainable food system is a meaningful 
                     way to take care of ourselves and the earth. 
                     </p>

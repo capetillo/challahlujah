@@ -18,10 +18,10 @@
 }
 
 #boton {
-    background-color: rgb(14, 26, 45);  
+    background-color: transparent;  
     width: 47px;
     height: 34px;
-    border-color: transparent;  
+    border-color: transparent; 
 }
 
  #boton:focus {
@@ -32,6 +32,7 @@
 #boton:active {
     border-color: transparent;
 }
+
 
 .line {
     float: left;
