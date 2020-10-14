@@ -2,12 +2,51 @@
     font-family: 'Alata', sans-serif;
 }
 
-#plain, #poppyseed, #sesame, #zaatar, #plain2, #poppyseed2, #sesame2, #zaatar2{
+
+#plain, #poppyseed, #sesame, #zaatar{
     width: 40vw;
     border-radius: 1%;
 }
 
-#plain2 {
+
+.plain {
+    -webkit-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out;
+}
+
+.plain:hover #plain {
+    opacity: 0;
+    -webkit-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out;  
+}
+
+
+.plain:hover  {
+    background-image: url('../Images/plain2.jpg');
+    background-size: 40vw;
+    -webkit-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out;
+}
+
+
+  
+
+.plain:hover #plain2{
+   position: absolute;
+    opacity: 1;
+    -webkit-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out;
+}
+
+#poppyseed2 {
     opacity: 0;
     -webkit-transition: 0.7s ease-in-out;
     -moz-transition: 0.7s ease-in-out;
@@ -15,23 +54,20 @@
     transition: 0.7s ease-in-out;
 }
 
-.plain {
-    position: absolute;
+.poppyseed {
+   
     -webkit-transition: 0.7s ease-in-out;
     -moz-transition: 0.7s ease-in-out;
     -o-transition: 0.7s ease-in-out;
     transition: 0.7s ease-in-out; 
   }
 
-.plain2 {
-    position: absolute;
-}
   
-  .plain:hover {
+  .poppyseed:hover {
     opacity: 0;
   }
 
-.plain2:hover #plain2{
+.poppyseed2:hover #poppyseed2{
    
     opacity: 1;
     -webkit-transition: 0.7s ease-in-out;
@@ -40,38 +76,69 @@
     transition: 0.7s ease-in-out;
 }
 
-  #poppyseed img {
-    position:absolute;
+#sesame2 {
+    opacity: 0;
     -webkit-transition: 0.7s ease-in-out;
     -moz-transition: 0.7s ease-in-out;
     -o-transition: 0.7s ease-in-out;
     transition: 0.7s ease-in-out;
-}
-  
-  #poppyseed img:hover {
-    opacity:0;
 }
 
-  #sesame img {
-    position:absolute;
+.sesame {
+    
+    -webkit-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out; 
+  }
+
+.sesame2 {
+    
+}
+  
+  .sesame:hover {
+    opacity: 0;
+  }
+
+.sesame2:hover #sesame2{
+   
+    opacity: 1;
     -webkit-transition: 0.7s ease-in-out;
     -moz-transition: 0.7s ease-in-out;
     -o-transition: 0.7s ease-in-out;
     transition: 0.7s ease-in-out;
-}
-  
-  #sesame img:hover {
-    opacity:0;
 }
 
-#zaatar img {
-    position:absolute;
+#zaatar2 {
+    opacity: 0;
     -webkit-transition: 0.7s ease-in-out;
     -moz-transition: 0.7s ease-in-out;
     -o-transition: 0.7s ease-in-out;
     transition: 0.7s ease-in-out;
 }
-  
-  #zaatar img:hover {
-    opacity:0;
+
+.zaatar {
+    
+    -webkit-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out; 
+  }
+
+.zaatar2 {
+    
 }
+  
+  .zaatar:hover {
+    opacity: 0;
+  }
+
+.zaatar2:hover #zaatar2{
+   
+    opacity: 1;
+    -webkit-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out;
+}
+

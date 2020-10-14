@@ -19,27 +19,29 @@ const Reserve = (props) => {
                 </div>
             </Row>
             <Row>
-                <Col sm={12} md={6} className="d-flex align-items-center justify-content-center pt-3">
-                    <div className="plain">
-                    <img src={plain} alt="plain challah" id="plain"/> 
-                    </div>
-                    <div className="plain2">
-                    <img src={plain2} alt="plain challah" id="plain2"/> 
-                    </div>  
-                </Col>
-                <Col sm={12} md={6} className="d-flex align-items-center justify-content-center pt-3">
-                    <img src={poppyseed} alt="poppyseed challah" id="poppyseed"/>
-                    <img src={poppyseed2} alt="poppyseed challah" id="poppyseed2"/>
-                </Col>
+               
+                    <Col sm={12} md={6} className="d-flex align-items-center justify-content-center pt-3">
+                        <div className="plain">
+                            <img src={plain} alt="plain challah" id="plain"/> 
+                        </div>    
+                    </Col>
+                    <Col sm={12} md={6} className="d-flex align-items-center justify-content-center pt-3">
+                        <div className="poppyseed">
+                            <img src={poppyseed} alt="poppyseed challah" id="poppyseed"/>
+                        </div> 
+                    </Col>
+             
             </Row>
             <Row>
                 <Col sm={12} md={6} className="d-flex align-items-center justify-content-center py-3">
-                    <img src={sesame} alt="sesame challah" id="sesame"/>
-                    <img src={sesame2} alt="sesame challah" id="sesame2"/>
+                    <div className="sesame">
+                        <img src={sesame} alt="sesame challah" id="sesame"/>
+                    </div> 
                 </Col>
                 <Col sm={12} md={6} className="d-flex align-items-center justify-content-center py-3">
-                    <img src={zaatar} alt="za'atar challah" id="zaatar"/>  
-                    <img src={zaatar2} alt="za'atar challah" id="zaatar2"/>  
+                    <div className="zaatar">
+                        <img src={zaatar} alt="za'atar challah" id="zaatar"/>   
+                    </div>
                 </Col>
             </Row>
         </div>
