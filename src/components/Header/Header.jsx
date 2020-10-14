@@ -14,17 +14,17 @@ const Header = (props) => {
                 </Col>
             </Row>
             <Row >
-                <Col sm={12} md={4} className="d-flex align-items-center justify-content-center pl-md-3">
+                <Col sm={12} md={4} className="d-flex align-items-center justify-content-center pl-md-5 pb-3">
                     <div className="photo-header1">
                         <Image src={challah} alt="challah" id="photo-header1"/>
                     </div>
                 </Col>
-                <Col sm={12} md={4} className="d-flex align-items-center justify-content-center">
+                <Col sm={12} md={4} className="d-flex align-items-center justify-content-center pb-3">
                     <div className="photo-header2"> 
                         <Image src={logo} alt="logo challah by ari" id="photo-header2"/>
                     </div>
                 </Col>
-                <Col sm={12} md={4} className="d-flex align-items-center justify-content-center pr-md-3">
+                <Col sm={12} md={4} className="d-flex align-items-center justify-content-center pr-md-5 pb-3">
                     <div className="photo-header3"> 
                         <Image src={challahheader} alt="challah with flowers" id="photo-header3"/>
                     </div>
