@@ -30,7 +30,7 @@ const About = (props) => {
                     way to take care of ourselves and the earth. 
                     </p>
                 </Col>
-                <Col sm={12} md={4} className="d-flex align-items-center justify-content-center img-responsive ml-sm-5 pt-4">
+                <Col sm={12} md={4} className="d-flex align-items-center justify-content-center img-responsive ml-md-5 pt-4">
                     <div className="photo">
                         <div className="ari-photo">
                             <Image src={ari} alt="ari, the baker" id="ari" />
