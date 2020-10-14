@@ -1,5 +1,10 @@
+.reserve{
+    background-color: rgb(245,240,229);
+}
+
 .reserve-header {
     font-family: 'Alata', sans-serif;
+    color: rgb(186, 176, 180)
 }
 
 #plain, #poppyseed, #sesame, #zaatar{

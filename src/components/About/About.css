@@ -1,3 +1,7 @@
+.about {
+  background-color:rgb(244, 213, 180);
+  padding: 3vw;
+}
 
 .bio {
     font-family: 'Roboto', sans-serif;
@@ -6,13 +10,13 @@
 
 .photo {
     text-align: center;
-  }
+}
   
   .ari-photo {
     display: block;
-  }
+}
   
   #ari {
     width: 40vh;
     border-radius: 1%;
-  }
+}
