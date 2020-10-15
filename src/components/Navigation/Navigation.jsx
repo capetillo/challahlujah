@@ -32,9 +32,9 @@ class Navigation extends Component {
         render () {
             return (
         <div className="links" id="navbar">
-            <Nav className="navbar navbar-expand-md navbar-dark shadow-none">
+           <Nav className="navbar navbar-expand-md navbar-dark shadow-none">
             <div className="menu-links">
-            <Button id ="boton" className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> 
+            <Button id ="boton" className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span id="line1" className="line"></span> 
                 <span id="line2" className="line"></span> 
                 <span id="line3" className="line"></span>
@@ -49,6 +49,8 @@ class Navigation extends Component {
                             smooth={true}
                             offset={-70}
                             duration={700}
+                            id="link"
+                            
                         > 
                         
                         home
@@ -62,6 +64,7 @@ class Navigation extends Component {
                             smooth={true}
                             offset={-70}
                             duration={700}
+                            id="link"
                         > 
                         about
                     </Link>
@@ -74,6 +77,7 @@ class Navigation extends Component {
                             smooth={true}
                             offset={-70}
                             duration={700}
+                            id="link"
                         > 
                        
                         reserve
@@ -89,6 +93,7 @@ class Navigation extends Component {
                             smooth={true}
                             offset={-70}
                             duration={700}
+                            id="link"
                         > 
                         
                         contact 

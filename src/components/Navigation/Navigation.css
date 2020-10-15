@@ -18,11 +18,12 @@
     background-color: rgb(250, 249, 247);
 }
 
-#navbarNav {
-    display: flex;
+
+#navbar:hover {
+    cursor: default;
 }
 
-#navbarNav:hover {
+#link:hover{
     cursor: pointer;
 }
 
@@ -45,7 +46,7 @@
 
 
 .line {
-    float: left;
+    float: right;
     height: 3px;
     background-color: rgb(232, 184, 115);
     margin: 6px;
