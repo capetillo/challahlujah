@@ -19,7 +19,7 @@ export default function Contact() {
     return (
         <div className="contact">
             <Row className="d-flex justify-content-center">
-                <Col xs={12}>
+                <Col sm={12}>
                     <p className="contact-header">contact me!</p>
                 </Col>
                 <Col xs={12}>
@@ -27,9 +27,9 @@ export default function Contact() {
                 </Col>
             </Row>
             <div className="contact-buttons">
-            <Row>
-                <Col xs={3}></Col>
-                <Col xs={3}>
+            <Row className="no-gutters">
+                <Col sm={3}></Col>
+                <Col sm={3}>
                    
                         <Button className="collapsed justify-self-center" type="button" data-toggle="collapse" data-target="#form-collapse-text" aria-controls="form-collapse-text" aria-expanded="false" aria-label="Toggle button" id="challah-at-me">
                             challah at me
@@ -61,14 +61,14 @@ export default function Contact() {
                             </form>
                         </Collapse>
                         </Col>
-                        <Col xs={3} className="justify-self-center">
+                        <Col sm={3} className="justify-self-center">
                             <a href="https://gmail.us2.list-manage.com/subscribe?u=6a90ee103a39a8ea6e4b2d543&id=6cdfa69eb3" target="blank">
-                                <Button  type="button">
+                                <Button  type="button" id="subscribe-button"> 
                                     subscribe
                                 </Button>
                             </a>
                         </Col>
-                        <Col xs={3}></Col>
+                        <Col sm={3}></Col>
                     </Row>
                     </div>
                 </div>
