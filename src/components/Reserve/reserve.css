@@ -11,31 +11,37 @@
 #plain, #poppyseed, #sesame, #zaatar{
     width: 40vw;
     border-radius: 1%;
-}
-
-
-#plain:hover {
-    opacity: 1;
     -webkit-transition: 0.7s ease-in-out;
     -moz-transition: 0.7s ease-in-out;
     -o-transition: 0.7s ease-in-out;
     transition: 0.7s ease-in-out;
 }
 
+
+/* #plain:hover {
+  
+    -webkit-transition: opacity 0.7s ease-in-out;
+    -moz-transition: opacity 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out;
+} */
+/* 
 .plain {
     -webkit-transition: 0.7s ease-in-out;
     -moz-transition: 0.7s ease-in-out;
     -o-transition: 0.7s ease-in-out;
     transition: 0.7s ease-in-out;
-}
+} */
+
 
 
 .plain:hover #plain {
     opacity: 0;
-    -webkit-transition: 0.7s ease-in-out;
+    /* -webkit-transition: 0.7s ease-in-out;
     -moz-transition: 0.7s ease-in-out;
     -o-transition: 0.7s ease-in-out;
-    transition: 0.7s ease-in-out;  
+    transition: 0.7s ease-in-out;  */
+   
 }
 
 
@@ -43,10 +49,10 @@
     background-image: url('../Images/plain2.jpg');
     border-radius: 1%;
     background-size: 40vw;
-    -webkit-transition: 0.7s ease-in-out;
+    /* -webkit-transition: 0.7s ease-in-out;
     -moz-transition: 0.7s ease-in-out;
     -o-transition: 0.7s ease-in-out;
-    transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out; */
 }
 
 .poppyseed {

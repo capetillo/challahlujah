@@ -11,3 +11,7 @@
     width: 5vh;
     height: 5vh;
 }
+
+#ig-logo:hover {
+    cursor: pointer;
+}

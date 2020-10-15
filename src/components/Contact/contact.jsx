@@ -42,19 +42,19 @@ export default function Contact() {
                                         <Row className="mx-auto collapse" id="form-collapse-text">
                                         <div className="email-form">
                                             <Col className="form-group mx-auto" sm={12} >
-                                                <input type="text" className="form-control" placeholder="name" name="name"/>
+                                                <input type="text" className="form-control" placeholder="name" name="name" id="textarea"/>
                                             </Col>
                                             <Col className="form-group mx-auto " sm={12}>
-                                                <input type="email" className="form-control" placeholder="email address" name="email"/>
+                                                <input type="email" className="form-control" placeholder="email address" name="email" id="textarea"/>
                                             </Col>
                                             <Col className="form-group mx-auto" sm={12}>
-                                                <input type="text" className="form-control" placeholder="subject" name="subject"/>
+                                                <input type="text" className="form-control" placeholder="subject" name="subject"id="textarea"/>
                                             </Col>
                                             <Col className="form-group pt-2 mx-auto" sm={12}>
-                                                <textarea className="form-control" cols="40" rows="6" placeholder="your message" name="message"></textarea>
+                                                <textarea className="form-control" cols="40" rows="6" placeholder="your message" name="message" id="textarea"></textarea>
                                             </Col>
                                             <Col className="form-group pt-3 mx-auto" sm={12}>
-                                                <input type="submit" className="btn" value="send message" id="send-message-button"/>
+                                                <input type="submit" className="btn" value="send message" id="button"/>
                                             </Col>
                                             </div>
                                         </Row>
