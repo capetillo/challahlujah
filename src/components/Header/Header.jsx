@@ -9,8 +9,11 @@ const Header = (props) => {
     return (
         <div className="header">
             <Row className="mt-5 pt-5">
-                <Col className="mt-5 mb-3">
+                <Col sm={12} className="mt-5 mb-3">
                     <h1 className="challah-by-ari">challah by ari</h1>
+                </Col>
+                <Col sm={12}>
+                    <p className="ingredients">all organic ingredients, including local honey</p>
                 </Col>
             </Row>
             <Row >
@@ -28,6 +31,11 @@ const Header = (props) => {
                     <div className="photo-header3"> 
                         <Image src={challahheader} alt="challah with flowers" id="photo-header3"/>
                     </div>
+                </Col>
+            </Row>
+            <Row> 
+                <Col className="py-3">
+                    <p className="catchphrase">#challahlujah there’s good challah in santa barbara!</p>
                 </Col>
             </Row>
         </div>
