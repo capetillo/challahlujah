@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import About from './components/About/About';
 import Reserve from './components/Reserve/Reserve';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 
@@ -22,6 +23,7 @@ export default class App extends Component {
       <Reserve />
       </ScrollAnimation>
       <Contact />
+      <Footer />
    </div>
   );
 }
