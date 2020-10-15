@@ -18,7 +18,15 @@ export default function Contact() {
 
     return (
         <div className="contact">
-            <div className="get-in-touch">
+            <Row className="d-flex justify-content-center">
+                <Col xs={12}>
+                    <p className="contact-header">contact me!</p>
+                </Col>
+                <Col xs={12}>
+                    <p className="contact-info">do you want to let me know something? do you want to subscribe?</p>
+                </Col>
+            </Row>
+            <div className="challah-at-me">
                 <Button className="collapsed justify-self-center" type="button" data-toggle="collapse" data-target="#form-collapse-text" aria-controls="form-collapse-text" aria-expanded="false" aria-label="Toggle button">
                     challah at me
                 </Button>

@@ -1,0 +1,30 @@
+.contact {
+    display: inline;
+    text-align: center;
+}
+.contact-info {
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(0.5em + 1vw);
+}
+
+.contactform {
+    margin-bottom: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+ .challah-at-me{
+    margin: 1vw 0;
+}
+
+.paddingpurposes {
+    margin-top: 2vw;
+}
+
+#send-message-button {
+    background-color: rgb(232, 184, 115)
+}
+

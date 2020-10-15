@@ -1,5 +1,7 @@
 #navbar {
     box-shadow: 0 0.3vw 0.3vw 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: flex-end;
 }
 
 .links {
@@ -10,9 +12,16 @@
     transition:  0.5s;
     padding-bottom: 2vw;
     z-index: 99;  
-    color: rgb(232, 184, 115);
-    background-color: rgb(250, 249, 247)
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(0.5em + 1vw);
+    background-color: rgb(250, 249, 247);
 }
+
+#navbarNav {
+    display: flex;
+}
+
 #navbarNav:hover {
     cursor: pointer;
 }

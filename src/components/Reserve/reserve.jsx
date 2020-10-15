@@ -15,24 +15,24 @@ const Reserve = (props) => {
                 </div>
             </Row>
             <Row>
-                    <Col sm={12} md={6} className="d-flex align-items-center justify-content-center pt-3">
+                    <Col xs={6}  className="d-flex align-items-center justify-content-center pt-3">
                         <div className="plain">
                             <img src={plain} alt="plain challah" id="plain"/> 
                         </div>    
                     </Col>
-                    <Col sm={12} md={6} className="d-flex align-items-center justify-content-center pt-3">
+                    <Col xs={6}  className="d-flex align-items-center justify-content-center pt-3">
                         <div className="poppyseed">
                             <img src={poppyseed} alt="poppyseed challah" id="poppyseed"/>
                         </div> 
                     </Col>
             </Row>
             <Row>
-                <Col sm={12} md={6} className="d-flex align-items-center justify-content-center py-3">
+                <Col xs={6}  className="d-flex align-items-center justify-content-center py-3">
                     <div className="sesame">
                         <img src={sesame} alt="sesame challah" id="sesame"/>
                     </div> 
                 </Col>
-                <Col sm={12} md={6} className="d-flex align-items-center justify-content-center py-3">
+                <Col xs={6}  className="d-flex align-items-center justify-content-center py-3">
                     <div className="zaatar">
                         <img src={zaatar} alt="za'atar challah" id="zaatar"/>   
                     </div>
