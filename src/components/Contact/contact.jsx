@@ -26,39 +26,51 @@ export default function Contact() {
                     <p className="contact-info">do you want to let me know something? do you want to subscribe?</p>
                 </Col>
             </Row>
-            <div className="challah-at-me">
-                <Button className="collapsed justify-self-center" type="button" data-toggle="collapse" data-target="#form-collapse-text" aria-controls="form-collapse-text" aria-expanded="false" aria-label="Toggle button">
-                    challah at me
-                </Button>
-            </div>
-                    <Collapse in={true}>
-                    <form onSubmit={sendEmail} >
-                        <div className="paddingpurposes">
-                            <Row className="mx-auto collapse" id="form-collapse-text">
-                            <div className="email-form">
-                                <Col className="form-group mx-auto" sm={12} >
-                                    <input type="text" className="form-control" placeholder="name" name="name"/>
-                                </Col>
-                                <Col className="form-group mx-auto " sm={12}>
-                                    <input type="email" className="form-control" placeholder="email address" name="email"/>
-                                </Col>
-                                <Col className="form-group mx-auto" sm={12}>
-                                    <input type="text" className="form-control" placeholder="subject" name="subject"/>
-                                </Col>
-                                <Col className="form-group pt-2 mx-auto" sm={12}>
-                                    <textarea className="form-control" cols="40" rows="6" placeholder="your message" name="message"></textarea>
-                                </Col>
-                                <Col className="form-group pt-3 mx-auto" sm={12}>
-                                    <input type="submit" className="btn" value="send message" id="send-message-button"/>
-                                </Col>
-                                </div>
-                            </Row>
-                            </div>
-                           
-                    </form>
+            <div className="contact-buttons">
+            <Row>
+                <Col xs={3}></Col>
+                <Col xs={3}>
+                   
+                        <Button className="collapsed justify-self-center" type="button" data-toggle="collapse" data-target="#form-collapse-text" aria-controls="form-collapse-text" aria-expanded="false" aria-label="Toggle button" id="challah-at-me">
+                            challah at me
+                        </Button>
                  
-                    </Collapse>
-                  
+                    <Collapse in={true}>
+                        <form onSubmit={sendEmail} >
+                            <div className="paddingpurposes">
+                                <Row className="mx-auto collapse" id="form-collapse-text">
+                                <div className="email-form">
+                                    <Col className="form-group mx-auto" sm={12} >
+                                        <input type="text" className="form-control" placeholder="name" name="name"/>
+                                    </Col>
+                                    <Col className="form-group mx-auto " sm={12}>
+                                        <input type="email" className="form-control" placeholder="email address" name="email"/>
+                                    </Col>
+                                    <Col className="form-group mx-auto" sm={12}>
+                                        <input type="text" className="form-control" placeholder="subject" name="subject"/>
+                                    </Col>
+                                    <Col className="form-group pt-2 mx-auto" sm={12}>
+                                        <textarea className="form-control" cols="40" rows="6" placeholder="your message" name="message"></textarea>
+                                    </Col>
+                                    <Col className="form-group pt-3 mx-auto" sm={12}>
+                                        <input type="submit" className="btn" value="send message" id="send-message-button"/>
+                                    </Col>
+                                    </div>
+                                </Row>
+                                </div>
+                            </form>
+                        </Collapse>
+                        </Col>
+                        <Col xs={3} className="justify-self-center">
+                            <a href="https://gmail.us2.list-manage.com/subscribe?u=6a90ee103a39a8ea6e4b2d543&id=6cdfa69eb3" target="blank">
+                                <Button  type="button">
+                                    subscribe
+                                </Button>
+                            </a>
+                        </Col>
+                        <Col xs={3}></Col>
+                    </Row>
+                    </div>
                 </div>
     )
     
