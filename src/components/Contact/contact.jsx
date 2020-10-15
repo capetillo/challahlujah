@@ -25,7 +25,7 @@ export default function Contact() {
                         <p className="contact-header">contact me!</p>
                     </Col>
                     <Col xs={12}>
-                        <p className="contact-info">do you want to let me know something? do you want to subscribe?</p>
+                        <p className="contact-info">would love to hear from you</p>
                     </Col>
                 </Row>
                 <div className="contact-buttons">
