@@ -6,12 +6,12 @@ import {Row, Col, Image} from 'react-bootstrap';
 const About = (props) => {
     return (
         <div className="about" id="about">
-            <Row className="d-flex align-items-center justify-content-center pt-3">
+            <Row className="d-flex align-items-center justify-content-center">
                 <div className="about-header">
                     <p className="about-ari-header">about the baker</p>
                 </div>
             </Row>
-            <Row className="px-5 no-gutters">
+            <Row className="px-5 pb-3 no-gutters">
                 <Col md={2}>
                 </Col>
                 <Col sm ={12} md={4} className="d-flex align-items-center justify-content-center mr-sm-5">
@@ -30,7 +30,7 @@ const About = (props) => {
                     way to take care of ourselves and the earth. 
                     </p>
                 </Col>
-                <Col sm={12} md={4} className="d-flex align-items-center justify-content-center img-responsive ml-md-5 pt-4">
+                <Col sm={12} md={4} className="d-flex align-items-center justify-content-center img-responsive ml-md-5 pt-xs-4">
                     <div className="photo">
                         <div className="ari-photo">
                             <Image src={ari} alt="ari, the baker" id="ari" />
