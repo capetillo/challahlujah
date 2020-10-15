@@ -7,7 +7,7 @@ import {Row, Col, Image} from 'react-bootstrap';
 
 const Header = (props) => {
     return (
-        <div className="header">
+        <div className="header" id="home">
             <Row className="mt-5 pt-5">
                 <Col sm={12} className="mt-5 mb-3">
                     <h1 className="challah-by-ari">challah by ari</h1>

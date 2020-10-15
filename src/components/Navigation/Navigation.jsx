@@ -41,7 +41,19 @@ class Navigation extends Component {
             </Button>
             </div>
             <div className="navbar-collapse collapse" id="navbarNav">
-                
+                    <Link
+                            className="nav-link"
+                            activeClass="active"
+                            to="home"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={700}
+                        > 
+                        
+                        home
+                       
+                    </Link>
                     <Link
                             className="nav-link"
                             activeClass="active"
@@ -80,19 +92,6 @@ class Navigation extends Component {
                         > 
                         
                         contact 
-                       
-                    </Link>
-                    <Link
-                            className="nav-link"
-                            activeClass="active"
-                            to="subscribe"
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={700}
-                        > 
-                        
-                        subscribe
                        
                     </Link>
             </div>
