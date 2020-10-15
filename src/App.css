@@ -7,3 +7,21 @@ p {
   font-family: 'Alata', sans-serif;
   font-size: calc(3em + 2vw);
 }
+
+#button {
+  margin: 1vw 0;
+  border-radius: 30px;
+  background-color: rgb(251, 229, 104);
+  color: rgb(74, 74, 74);
+  border-color: rgb(74, 74, 74);
+  box-sizing: border-box;
+  box-shadow: inset 1.5px 1.5px 0 1.5px #fff;
+  padding: 9px 20px; 
+  font-size: calc(0.5em + 1vw);
+  font-family: 'Roboto', sans-serif;
+}
+
+#button:hover {
+  background-color: rgb(252, 240, 128);
+  box-shadow: none;
+}

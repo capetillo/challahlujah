@@ -41,8 +41,8 @@ const Reserve = (props) => {
             <Row> 
                 <Col className="d-flex align-items-center justify-content-center p-5">
                     
-                        <Button className="collapsed justify-self-center" type="button">
-                            order
+                        <Button className="collapsed justify-self-center" type="button" id="button">
+                            reserve your challah
                         </Button>
           
                 </Col>
