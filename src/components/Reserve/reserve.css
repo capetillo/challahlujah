@@ -8,54 +8,25 @@
     text-align: center;
 }
 
-#plain, #poppyseed, #sesame, #zaatar{
+ #plain, #poppyseed, #sesame, #zaatar{
     width: 40vw;
     border-radius: 1%;
+    z-index: 10;
     -webkit-transition: 0.7s ease-in-out;
     -moz-transition: 0.7s ease-in-out;
     -o-transition: 0.7s ease-in-out;
     transition: 0.7s ease-in-out;
 }
-
-
-/* #plain:hover {
-  
-    -webkit-transition: opacity 0.7s ease-in-out;
-    -moz-transition: opacity 0.7s ease-in-out;
-    -o-transition: 0.7s ease-in-out;
-    transition: 0.7s ease-in-out;
-} */
-/* 
-.plain {
-    -webkit-transition: 0.7s ease-in-out;
-    -moz-transition: 0.7s ease-in-out;
-    -o-transition: 0.7s ease-in-out;
-    transition: 0.7s ease-in-out;
-} */
-
-
 
 .plain:hover #plain {
-    opacity: 0;
-    /* -webkit-transition: 0.7s ease-in-out;
-    -moz-transition: 0.7s ease-in-out;
-    -o-transition: 0.7s ease-in-out;
-    transition: 0.7s ease-in-out;  */
-   
+    opacity: 0; 
 }
 
-
-.plain:hover  {
+.plain {
     background-image: url('../Images/plain2.jpg');
     border-radius: 1%;
     background-size: 40vw;
-    /* -webkit-transition: 0.7s ease-in-out;
-    -moz-transition: 0.7s ease-in-out;
-    -o-transition: 0.7s ease-in-out;
-    transition: 0.7s ease-in-out; */
-}
-
-.poppyseed {
+    z-index: 10;
     -webkit-transition: 0.7s ease-in-out;
     -moz-transition: 0.7s ease-in-out;
     -o-transition: 0.7s ease-in-out;
@@ -63,25 +34,14 @@
 }
 
 .poppyseed:hover #poppyseed {
-    opacity: 0;
-    -webkit-transition: 0.7s ease-in-out;
-    -moz-transition: 0.7s ease-in-out;
-    -o-transition: 0.7s ease-in-out;
-    transition: 0.7s ease-in-out;  
+    opacity: 0; 
 }
 
-
-.poppyseed:hover  {
+.poppyseed {
     background-image: url('../Images/poppyseed2.jpg');
-    background-size: 40vw;
     border-radius: 1%;
-    -webkit-transition: 0.7s ease-in-out;
-    -moz-transition: 0.7s ease-in-out;
-    -o-transition: 0.7s ease-in-out;
-    transition: 0.7s ease-in-out;
-}
-
-.sesame {
+    background-size: 40vw;
+    z-index: 10;
     -webkit-transition: 0.7s ease-in-out;
     -moz-transition: 0.7s ease-in-out;
     -o-transition: 0.7s ease-in-out;
@@ -89,25 +49,14 @@
 }
 
 .sesame:hover #sesame {
-    opacity: 0;
-    -webkit-transition: 0.7s ease-in-out;
-    -moz-transition: 0.7s ease-in-out;
-    -o-transition: 0.7s ease-in-out;
-    transition: 0.7s ease-in-out;  
+    opacity: 0; 
 }
 
-
-.sesame:hover  {
+.sesame {
     background-image: url('../Images/sesame2.jpg');
-    background-size: 40vw;
     border-radius: 1%;
-    -webkit-transition: 0.7s ease-in-out;
-    -moz-transition: 0.7s ease-in-out;
-    -o-transition: 0.7s ease-in-out;
-    transition: 0.7s ease-in-out;
-}
-
-.zaatar {
+    background-size: 40vw;
+    z-index: 10;
     -webkit-transition: 0.7s ease-in-out;
     -moz-transition: 0.7s ease-in-out;
     -o-transition: 0.7s ease-in-out;
@@ -115,18 +64,14 @@
 }
 
 .zaatar:hover #zaatar {
-    opacity: 0;
-    -webkit-transition: 0.7s ease-in-out;
-    -moz-transition: 0.7s ease-in-out;
-    -o-transition: 0.7s ease-in-out;
-    transition: 0.7s ease-in-out;  
+    opacity: 0; 
 }
 
-
-.zaatar:hover  {
+.zaatar {
     background-image: url('../Images/zaatar2.jpg');
-    background-size: 40vw;
     border-radius: 1%;
+    background-size: 40vw;
+    z-index: 10;
     -webkit-transition: 0.7s ease-in-out;
     -moz-transition: 0.7s ease-in-out;
     -o-transition: 0.7s ease-in-out;

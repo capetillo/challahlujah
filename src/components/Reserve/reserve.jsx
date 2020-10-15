@@ -1,6 +1,7 @@
 import React from 'react';
 import './Reserve.css';
 import plain from '../Images/plain.jpg';
+import plain2 from '../Images/plain2.jpg';
 import poppyseed from '../Images/poppyseed.jpg';
 import sesame from '../Images/sesame.jpg';
 import zaatar from '../Images/zaatar.jpg';
