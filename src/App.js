@@ -16,12 +16,8 @@ export default class App extends Component {
   <div className="page-container">
       <Navigation />
       <Header />
-      <ScrollAnimation animateOnce={true} duration={2} animateIn="fadeIn" animatePreScroll={false}>
       <About />
-      </ScrollAnimation>
-      <ScrollAnimation animateOnce={true} duration={2} animateIn="fadeIn" animatePreScroll={false}>
       <Reserve />
-      </ScrollAnimation>
       <Contact />
       <Footer />
    </div>
