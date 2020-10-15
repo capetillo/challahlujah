@@ -29,10 +29,10 @@ class Navigation extends Component {
             }
         }
     }
-        render () {
-            return (
+    render () {
+        return (
         <div className="links" id="navbar">
-           <Nav className="navbar navbar-expand-md navbar-dark shadow-none">
+           <Nav className="navbar navbar-expand-md navbar-dark shadow-none d-flex justify-content-end">
             <div className="menu-links">
             <Button id ="boton" className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span id="line1" className="line"></span> 
@@ -42,22 +42,19 @@ class Navigation extends Component {
             </div>
             <div className="navbar-collapse collapse" id="navbarNav">
                     <Link
-                            className="nav-link"
+                            className="nav-link d-flex justify-content-end"
                             activeClass="active"
                             to="home"
                             spy={true}
                             smooth={true}
                             offset={-70}
                             duration={700}
-                            id="link"
-                            
+                            id="link"  
                         > 
-                        
                         home
-                       
                     </Link>
                     <Link
-                            className="nav-link"
+                            className="nav-link d-flex justify-content-end"
                             activeClass="active"
                             to="about"
                             spy={true}
@@ -70,7 +67,7 @@ class Navigation extends Component {
                     </Link>
 
                     <Link
-                            className="nav-link"
+                            className="nav-link d-flex justify-content-end"
                             activeClass="active"
                             to="reserve"
                             spy={true}
@@ -86,7 +83,7 @@ class Navigation extends Component {
             
                 
                     <Link
-                            className="nav-link"
+                            className="nav-link d-flex justify-content-end"
                             activeClass="active"
                             to="contact"
                             spy={true}
