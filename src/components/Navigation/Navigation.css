@@ -1,3 +1,7 @@
+#navbar {
+    box-shadow: 0 0.3vw 0.3vw 0 rgba(0, 0, 0, 0.2);
+}
+
 .links {
     cursor: pointer;
     position: fixed;
@@ -13,9 +17,6 @@
     cursor: pointer;
 }
 
-.menu-links {
-    padding: 2vw 0;     
-}
 
 #boton {
     background-color: transparent;  
