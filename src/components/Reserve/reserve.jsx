@@ -16,8 +16,11 @@ const Reserve = (props) => {
                         <p className="reserve-header">reserve your challah</p>
                     </div>
                 </Row>
-                <Row className="d-flex align-items-center justify-content-center pt-4"> 
-                    <p className="reserve-text">we have all kinds of flavors like chocolate chip, raisins, and more!</p>
+                <Row className="d-flex align-items-center justify-content-center pt-4 px-4"> 
+                    <Col>
+                        <p className="reserve-text">toppings and mix-ins change periodically.
+                    for the most up to date options, use the order form below. </p>
+                    </Col>
                 </Row>
                 <Row>
                         <Col xs={6}  className="d-flex align-items-center justify-content-center pt-3">

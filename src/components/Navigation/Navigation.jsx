@@ -96,6 +96,20 @@ class Navigation extends Component {
                         contact 
                        
                     </Link>
+                    <Link
+                            className="nav-link d-flex justify-content-end"
+                            activeClass="active"
+                            to="challahhacks"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={700}
+                            id="link"
+                        > 
+                        
+                        #challahhacks
+                       
+                    </Link>
             </div>
          </Nav> 
         </div>
