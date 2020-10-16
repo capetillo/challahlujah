@@ -7,22 +7,32 @@
 }
 
 .bio {
-    font-family: 'Roboto', sans-serif;
-    font-size: calc(0.75em + 1vw);
+  font-family: 'Roboto', sans-serif;
+  font-size: calc(0.75em + 1vw);
 }
 
 .photo {
-    text-align: center;
+  text-align: center;
 }
   
-  .ari-photo {
-    display: block;
+.ari-photo {
+  display: block;
 }
   
-  #ari {
-    width: 30vh;
+#ari {
+    width: 35vh;
     border-radius: 1%;
 }
+
+#baker {
+  padding: 0 -2vw;
+}
+
+#baker-photo {
+  width: 20vh;
+  border-radius: 1%;
+}
+
 
 a {
   text-decoration: none !important;

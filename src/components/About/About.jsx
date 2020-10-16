@@ -1,7 +1,12 @@
 import React from 'react';
 import './About.css';
-import ari from '../Images/ari.jpg'
-import {Row, Col, Image} from 'react-bootstrap';
+import ari from '../Images/ari.jpg';
+import baker1 from '../Images/baker1.jpg';
+import baker2 from '../Images/baker2.jpg';
+import baker3 from '../Images/baker3.jpg';
+import baker4 from '../Images/baker4.jpg';
+import baker5 from '../Images/baker5.jpg';
+import {Row, Col, Container, Image} from 'react-bootstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 const About = (props) => {
@@ -14,9 +19,9 @@ const About = (props) => {
                     </div>
                 </Row>
                 <Row className="px-5 pb-3 no-gutters">
-                    <Col md={2}>
+                    <Col md={1}>
                     </Col>
-                    <Col sm ={12} md={4} className="d-flex align-items-center justify-content-center mr-sm-5">
+                    <Col sm ={12} md={5} className="d-flex align-items-center justify-content-center mr-sm-5">
                         <p className="bio">
                         Ari is a Ventura native now living in Santa Barbara who has been baking challah 
                         for over 10 years! She first learned as an undergraduate 
@@ -32,14 +37,45 @@ const About = (props) => {
                         way to take care of ourselves and the earth. 
                         </p>
                     </Col>
-                    <Col sm={12} md={4} className="d-flex align-items-center justify-content-center img-responsive ml-md-5 pt-xs-4">
+                    <Col sm={12} md={5} className="d-flex align-items-center justify-content-center img-responsive ml-md-5 pt-xs-4">
                         <div className="photo">
                             <div className="ari-photo">
                                 <Image src={ari} alt="ari, the baker" id="ari" />
                             </div>
                         </div>
                     </Col>
-                    <Col md={2}>
+                    <Col md={1}>
+                    </Col>
+                </Row>
+                <Row noGutters={true} className="d-flex justify-content-center">
+                    <Col md={1}>
+                    </Col>
+                    <div id="baker">
+                        <Col md={2}>
+                            <Image src={baker1} alt="ari, the baker, baking challah" id="baker-photo"/>
+                        </Col>
+                    </div>
+                    <div id="baker">
+                        <Col md={2}>
+                            <Image src={baker2} alt="ari, the baker, baking challah" id="baker-photo"/>
+                        </Col>
+                    </div>
+                    <div id="baker">
+                        <Col md={2}>
+                            <Image src={baker3} alt="ari, the baker, baking challah" id="baker-photo"/>
+                        </Col>
+                    </div>
+                    <div id="baker">
+                        <Col md={2}>
+                            <Image src={baker4} alt="ari, the baker, baking challah" id="baker-photo"/>
+                        </Col>
+                    </div>
+                    <div id="baker">
+                        <Col md={2}>
+                            <Image src={baker5} alt="ari, the baker, baking challah" id="baker-photo"/>
+                        </Col>
+                    </div>
+                    <Col md={1}>
                     </Col>
                 </Row>
             </ScrollAnimation>
