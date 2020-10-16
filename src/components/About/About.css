@@ -20,12 +20,12 @@
 }
   
 #ari {
-    width: 35vh;
+    width: 40vh;
     border-radius: 1%;
 }
 
-#baker {
-  padding: 0 -2vw;
+#baker, #baker1 {
+  padding: -2vw;
 }
 
 #baker-photo {
@@ -33,6 +33,20 @@
   border-radius: 1%;
 }
 
+@media only screen and (max-width: 600px) {
+  #baker {
+    display: none;
+  }
+
+  #baker-photo1 {
+    width: 40vh;
+    border-radius: 1%;
+  }
+
+  #baker1 {
+    align-content: center;
+  }
+}
 
 a {
   text-decoration: none !important;

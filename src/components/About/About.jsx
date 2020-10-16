@@ -47,7 +47,7 @@ const About = (props) => {
                     <Col md={1}>
                     </Col>
                 </Row>
-                <Row noGutters={true} className="d-flex justify-content-center">
+                <Row noGutters={true} className="py-5 d-flex justify-content-center">
                     <Col md={1}>
                     </Col>
                     <div id="baker">
@@ -55,14 +55,14 @@ const About = (props) => {
                             <Image src={baker1} alt="ari, the baker, baking challah" id="baker-photo"/>
                         </Col>
                     </div>
-                    <div id="baker">
+                    <div id="baker" >
                         <Col md={2}>
                             <Image src={baker2} alt="ari, the baker, baking challah" id="baker-photo"/>
                         </Col>
                     </div>
-                    <div id="baker">
+                    <div id="baker1">
                         <Col md={2}>
-                            <Image src={baker3} alt="ari, the baker, baking challah" id="baker-photo"/>
+                            <Image src={baker3} alt="ari, the baker, baking challah" id="baker-photo1"/>
                         </Col>
                     </div>
                     <div id="baker">
