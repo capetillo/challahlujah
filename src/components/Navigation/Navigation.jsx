@@ -23,7 +23,7 @@ class Navigation extends Component {
                     document.getElementById("navbar").style.top = "0";
                 } else {
                     // how many rems is the navbar hidden 
-                    document.getElementById("navbar").style.top = "-10.0rem";
+                    document.getElementById("navbar").style.top = "-15.0rem";
                 }
                 prevScrollPos = currentScrollPos
             }

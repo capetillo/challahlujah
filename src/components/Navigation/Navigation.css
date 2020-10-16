@@ -14,8 +14,9 @@
     z-index: 99;  
     color: black;
     font-family: 'Roboto', sans-serif;
-    font-size: calc(0.7em + 1vw);
+    font-size: calc(0.65em + 1vw);
     background-color: rgb(250, 249, 247);
+    font-weight: 300;
 }
 
 #navbar:hover {

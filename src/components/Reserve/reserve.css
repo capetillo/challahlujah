@@ -12,6 +12,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: calc(0.75em + 1vw);
     text-align: center;
+    font-weight: 300;
 }
 
  #plain, #poppyseed, #sesame, #zaatar{

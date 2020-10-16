@@ -14,6 +14,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: calc(1em + 1vw);
     text-align: center;
+    font-weight: 300;
 }
 
 #photo-header1, #photo-header2, #photo-header3 {

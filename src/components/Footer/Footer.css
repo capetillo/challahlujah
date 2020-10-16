@@ -5,6 +5,7 @@
 #footer-line-1, #footer-line-2 {
     font-family: 'Roboto', sans-serif;
     font-size: calc(0.5em + 1vw);
+    font-weight: 300;
 }
 
 #ig-logo {

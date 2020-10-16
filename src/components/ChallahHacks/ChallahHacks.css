@@ -1,0 +1,31 @@
+.challah-hacks {
+    background-color: thistle;
+}
+
+.hacks {
+  text-align: center
+}
+
+.subheader {
+    font-size: calc(2em + 1vw);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.hack-context {
+    font-size: calc(0.75em + 1vw);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+#challahtopview {
+  width: 60vh;
+  border-radius: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+  #challahtopview {
+    width: 40vh;
+    border-radius: 1%;
+  }
+}
