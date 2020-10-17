@@ -20,7 +20,7 @@ export default function Contact() {
     return (
         <div className="contact">
             <ScrollAnimation animateOnce={true} duration={2} animateIn="fadeIn" animatePreScroll={false}>
-                <Row className="d-flex justify-content-center">
+                <Row className="d-flex justify-content-center py-4">
                     <Col sm={12}>
                         <p className="contact-header">contact me!</p>
                     </Col>

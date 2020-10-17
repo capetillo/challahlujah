@@ -11,7 +11,7 @@ const Reserve = (props) => {
     return (
         <div className="reserve">
             <ScrollAnimation animateOnce={true} duration={2} animateIn="fadeIn" animatePreScroll={false}>
-                <Row className="d-flex align-items-center justify-content-center pt-4">
+                <Row className="d-flex align-items-center justify-content-center py-4">
                     <div className="reserve-header">
                         <p className="reserve-header">reserve your challah</p>
                     </div>
