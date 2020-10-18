@@ -48,11 +48,11 @@ const Reserve = (props) => {
                 </Row>
                 <Row> 
                     <Col className="d-flex align-items-center justify-content-center p-5">
-                        
+                        <a href="https://forms.gle/1affxEEWdYABnL9v5" target="blank"> 
                             <Button className="collapsed justify-self-center" type="button" id="button">
                                 reserve your challah here
                             </Button>
-            
+                        </a>
                     </Col>
                 </Row>
             </ScrollAnimation>
