@@ -20,19 +20,19 @@ const ChallahHacks = (props) => {
                         <Col xs={12} className="px-5">
                             <p className="subheader">the freezer is your friend</p>
                         </Col>
-                        <Col xs={12} className="px-5 pb-5">
+                        <Col xs={12} className="px-5 pb-md-5">
                             <p className="hack-context">challah freezes really well! you can place an entire loaf in the freezer or slice it before so you can toast off individual pieces whenever you have a craving. always put it in sealed plastic before freezing. to defrost the entire loaf I like to wrap mine in aluminum foil and place in a low heat oven until warm all the way through.</p>
                         </Col>
                         <Col xs={12} className="px-5">
                             <p className="subheader">best french toast of your life</p>
                         </Col>
-                        <Col xs={12} className="px-5 pb-5">
+                        <Col xs={12} className="px-5 pb-md-5">
                             <p className="hack-context">did not come up with this one but do think is the greatest thing ever. challah works especially well for french toast when it's not at its most fresh.</p>
                         </Col>
                         <Col xs={12} className="px-5">
                             <p className="subheader">challah in your salad: the crouton disguise</p>
                         </Col>
-                        <Col xs={12} className="px-5 pb-5">
+                        <Col xs={12} className="px-5 pb-md-5">
                             <p className="hack-context">leftover challah chopped into small cubes and covered in olive oil, salt, and pepper will be the greatest addition to your next salad. bake around 350 until toasted and crunchy. you're welcome.</p>
                         </Col>
                     </Col>
