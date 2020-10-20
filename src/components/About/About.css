@@ -1,7 +1,7 @@
 .about {
   background-color:rgb(240, 221, 197) ;
   padding: 3vw;
-  width: 100%;
+  width: 100vw;
 }
 .about-header {
   text-align: center;
@@ -26,7 +26,7 @@
 }
   
 #ari {
-    width: 40vh;
+    width: 25vw;
     border-radius: 1%;
 }
 
@@ -35,7 +35,7 @@
 }
 
 #baker-photo, #baker-photo1 {
-  width: 20vh;
+  width: 10vw;
   border-radius: 1%;
 }
 
@@ -55,7 +55,7 @@ a {
   }
 
   #baker-photo1 {
-    width: 40vh;
+    width: 40vw;
     border-radius: 1%;
   }
 
@@ -64,3 +64,28 @@ a {
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .bio {
+    font-size: calc(0.9em + 1vw);
+  }
+  .ari-photo {
+    display: block;
+  }
+  #ari {
+    width: 40vw;
+    border-radius: 1%;
+}
+
+#baker {
+  display: none;
+}
+
+#baker-photo1 {
+  width: 40vw;
+  border-radius: 1%;
+}
+
+#baker1 {
+  align-content: center;
+}
+}

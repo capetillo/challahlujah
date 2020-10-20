@@ -18,6 +18,17 @@
 }
 
 #photo-header1, #photo-header2, #photo-header3 {
-    width: 40vh;
+    width: 30vw;
     border-radius: 1%;
 }
+
+@media only screen and (max-width: 1024px) {
+    .header {
+        width: 100vw;
+    }
+    #photo-header1, #photo-header2, #photo-header3 {
+        width: 30vw;
+        border-radius: 1%;
+    }
+  }
+  

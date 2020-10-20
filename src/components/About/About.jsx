@@ -18,10 +18,10 @@ const About = (props) => {
                         <p className="about-ari-header">about the baker</p>
                     </div>
                 </Row>
-                <Row className="px-5 pb-3 no-gutters">
+                <Row className="px-5 pb-4 no-gutters">
                     <Col md={1}>
                     </Col>
-                    <Col sm ={12} md={5} className="d-flex align-items-center justify-content-center mr-sm-5">
+                    <Col sm ={12} md={5} className="d-flex align-items-center justify-content-center mr-xl-5 pb-2">
                         <p className="bio">
                         ari is a ventura native now living in santa barbara who has been baking challah 
                         for over 10 years! she first learned as an undergraduate 
@@ -37,7 +37,7 @@ const About = (props) => {
                         way to take care of ourselves and the earth. 
                         </p>
                     </Col>
-                    <Col sm={12} md={5} className="d-flex align-items-center justify-content-center img-responsive ml-md-5 pt-xs-4">
+                    <Col sm={12} md={5} className="d-flex align-items-center justify-content-center img-responsive ml-md-5 pt-xs-4 pb-2" >
                         <div className="photo">
                             <div className="ari-photo">
                                 <Image src={ari} alt="ari, the baker" id="ari" />
@@ -47,7 +47,7 @@ const About = (props) => {
                     <Col md={1}>
                     </Col>
                 </Row>
-                <Row noGutters={true} className="py-5 d-flex justify-content-center">
+                <Row noGutters={true} className="pb-5 d-flex justify-content-center">
                     <Col md={1}>
                     </Col>
                     <div id="baker">

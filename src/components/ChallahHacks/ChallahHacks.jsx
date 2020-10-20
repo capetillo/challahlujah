@@ -37,7 +37,7 @@ const ChallahHacks = (props) => {
                         </Col>
                     </Col>
                     <Col md={5}>
-                        <Image src={challahtopview} alt="shem, baker at heart" id="challahtopview" />
+                        <Image src={challahtopview} alt="challah (aerial view)" id="challahtopview" />
                     </Col>
                     <Col md={1}></Col>
                 </Row>
