@@ -8,7 +8,7 @@ const ChallahHacks = (props) => {
     return(
         <div className="challah-hacks" id="challahhacks">
              <ScrollAnimation animateOnce={true} duration={2} animateIn="fadeIn" animatePreScroll={false}>
-                <Row className="d-flex justify-content-center py-5">
+                <Row className="d-flex justify-content-center pt-4 pb-2">
                     <Col className="d-flex justify-content-center">
                         <p className="hacks-title">#challahhacks</p>
                     </Col>

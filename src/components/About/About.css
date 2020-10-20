@@ -1,6 +1,7 @@
 .about {
   background-color:rgb(240, 221, 197) ;
   padding: 3vw;
+  width: 100%;
 }
 .about-header {
   text-align: center;

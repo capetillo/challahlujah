@@ -35,5 +35,13 @@
     width: 40vh;
     border-radius: 1%;
   }
+
+  .hacks-title {
+    font-size: calc(2.3em + 2vw);
+  }
+
+  .subheader {
+    font-size: calc(2em + 0.7vw);
+  }
 }
 

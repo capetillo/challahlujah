@@ -3,7 +3,7 @@ import './Header.css';
 import challah from '../Images/challah.jpg';
 import logo from '../Images/logo.jpg';
 import challahheader from '../Images/challahheader.jpg';
-import {Row, Col, Image} from 'react-bootstrap';
+import {Row, Col, Image, Container} from 'react-bootstrap';
 
 const Header = (props) => {
     return (
@@ -12,7 +12,7 @@ const Header = (props) => {
                 <Col sm={12} className="mt-5 mb-3">
                     <h1 className="challah-by-ari">challah by ari</h1>
                 </Col>
-                <Col sm={12}>
+                <Col sm={12} className="mx-2">
                     <p className="ingredients">all organic ingredients, including local honey</p>
                 </Col>
             </Row>
@@ -33,8 +33,8 @@ const Header = (props) => {
                     </div>
                 </Col>
             </Row>
-            <Row className="pb-5"> 
-                <Col className="py-3">
+            <Row className="pb-xs-3"> 
+                <Col className="py-3 mx-3">
                     <p className="catchphrase">#challahlujah there’s good challah in santa barbara!</p>
                 </Col>
             </Row>

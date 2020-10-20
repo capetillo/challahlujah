@@ -63,7 +63,7 @@ export default function Contact() {
                                     </form>
                                 </Collapse>
                                 </Col>
-                                <Col sm={3} className="justify-self-center pb-3">
+                                <Col sm={3} className="justify-self-center pb-5">
                                     <a href="https://gmail.us2.list-manage.com/subscribe?u=6a90ee103a39a8ea6e4b2d543&id=6cdfa69eb3" target="blank">
                                         <Button  type="button" id="button"> 
                                             subscribe

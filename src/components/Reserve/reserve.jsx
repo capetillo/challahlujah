@@ -11,12 +11,12 @@ const Reserve = (props) => {
     return (
         <div className="reserve">
             <ScrollAnimation animateOnce={true} duration={2} animateIn="fadeIn" animatePreScroll={false}>
-                <Row className="d-flex align-items-center justify-content-center py-4">
+                <Row className="d-flex align-items-center justify-content-center pt-4">
                     <div className="reserve-header">
                         <p className="reserve-header">reserve your challah</p>
                     </div>
                 </Row>
-                <Row className="d-flex align-items-center justify-content-center pt-4 px-4"> 
+                <Row className="d-flex align-items-center justify-content-center pt-2 px-4"> 
                     <Col>
                         <p className="reserve-text">toppings and mix-ins change periodically.
                     for the most up to date options, use the order form below. </p>

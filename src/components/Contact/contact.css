@@ -5,6 +5,7 @@
 
 #test {
     background-color:rgb(240, 221, 197) !important;
+    width: 100vw;
 }
 
 .contact-header {
