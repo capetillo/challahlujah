@@ -33,7 +33,7 @@ const Header = (props) => {
                     </div>
                 </Col>
             </Row>
-            <Row> 
+            <Row className="pb-5"> 
                 <Col className="py-3">
                     <p className="catchphrase">#challahlujah there’s good challah in santa barbara!</p>
                 </Col>

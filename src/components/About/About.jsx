@@ -13,7 +13,7 @@ const About = (props) => {
     return (
         <div className="about" id="about">
             <ScrollAnimation animateOnce={true} duration={2} animateIn="fadeIn" animatePreScroll={false}>
-                <Row className="d-flex align-items-center justify-content-center">
+                <Row className="d-flex align-items-center justify-content-center px-2">
                     <div className="about-header">
                         <p className="about-ari-header">about the baker</p>
                     </div>
