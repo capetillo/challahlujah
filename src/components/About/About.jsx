@@ -23,16 +23,16 @@ const About = (props) => {
                     </Col>
                     <Col sm ={12} md={5} className="d-flex align-items-center justify-content-center mr-sm-5">
                         <p className="bio">
-                        Ari is a Ventura native now living in Santa Barbara who has been baking challah 
-                        for over 10 years! She first learned as an undergraduate 
-                        student at UC Berkeley and took her love of making challah 
-                        with her to New York City and Western MA before returning 
-                        to the West Coast. 
-                        This is her first venture into selling 
+                        ari is a ventura native now living in santa barbara who has been baking challah 
+                        for over 10 years! she first learned as an undergraduate 
+                        student at uc berkeley and took her love of making challah 
+                        with her to new york city and western massachussets before returning 
+                        to the west coast. 
+                        this is her first venture into selling 
                         it to a larger audience: these strange pandemic times have 
-                        inspired her to be of service to the community. The challah 
+                        inspired her to be of service to the community. the challah 
                         only has organic ingredients, and when possible local ones 
-                        at that (like <a href="http://wyldeworks.com/dylansrawhivehoney" target="blank">Dylan's raw hive honey!</a>). Now more than ever, 
+                        at that (like <a href="http://wyldeworks.com/dylansrawhivehoney" target="blank" id="dylan">dylan's raw hive honey!</a>). now more than ever, 
                         supporting our local and sustainable food system is a meaningful 
                         way to take care of ourselves and the earth. 
                         </p>

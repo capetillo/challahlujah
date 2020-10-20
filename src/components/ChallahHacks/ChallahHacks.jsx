@@ -2,7 +2,7 @@ import React from 'react';
 import './ChallahHacks.css';
 import {Row, Col, Image} from 'react-bootstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
-import challahtopview from '../Images/challah-top-view.jpg'
+import challahtopview from '../Images/challah-top-view.jpg';
 
 const ChallahHacks = (props) => {
     return(

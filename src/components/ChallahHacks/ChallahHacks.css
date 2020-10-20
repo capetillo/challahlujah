@@ -1,9 +1,13 @@
 .challah-hacks {
-    background-color: thistle;
+  background-color: rgb(250, 249, 247);
 }
 
 .hacks {
   text-align: center
+}
+.hacks-title {
+
+    color: rgb(92, 115, 39);
 }
 
 .subheader {
@@ -16,6 +20,7 @@
     font-size: calc(0.75em + 1vw);
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  text-align: left;
 }
 
 #challahtopview {
@@ -29,3 +34,4 @@
     border-radius: 1%;
   }
 }
+
