@@ -27,7 +27,7 @@ const ChallahHacks = (props) => {
                             <p className="subheader">best french toast of your life</p>
                         </Col>
                         <Col xs={12} className="px-5 pb-md-5">
-                            <p className="hack-context">did not come up with this one but do think is the greatest thing ever. challah works especially well for french toast when it's not at its most fresh.</p>
+                            <p className="hack-context">did not come up with this one but do think it's the greatest thing ever. challah works especially well for french toast when it's not at its most fresh.</p>
                         </Col>
                         <Col xs={12} className="px-5">
                             <p className="subheader">challah in your salad: the crouton disguise</p>
