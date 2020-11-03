@@ -17,6 +17,12 @@ const ChallahHacks = (props) => {
                 <Row className="d-flex justify-content-center align-items-center px-4 pb-5">
                     <Col md={1}></Col>
                     <Col md={5}>
+                    <Col xs={12} className="px-5">
+                            <p className="subheader">almost like you made it at home</p>
+                        </Col>
+                        <Col xs={12} className="px-5 pb-md-5">
+                            <p className="hack-context">to freshen up the loaf before eating, wrap it in foil and place it in a hot oven (200-300 degrees) for about 15 minutes or until warmed through.</p>
+                        </Col>
                         <Col xs={12} className="px-5">
                             <p className="subheader">the freezer is your friend</p>
                         </Col>
