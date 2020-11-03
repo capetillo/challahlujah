@@ -38,7 +38,8 @@
   }
 
   .hacks-title {
-    font-size: calc(2.3em + 2vw);
+    font-size: calc(2.5em + 2vw);
+ 
   }
 
   .subheader {
@@ -46,3 +47,11 @@
   }
 }
 
+@media only screen and (max-width: 812px) {
+  .hacks-title {
+    font-size: calc(2.8em + 2vw);
+  
+  }
+
+  
+}
