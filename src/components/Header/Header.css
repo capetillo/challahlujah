@@ -41,5 +41,9 @@
         width: 60vw;
         border-radius: 1%;
     }
+
+    #photo-header1, #photo-header3 {
+        display: none;
+    }
   }
   
