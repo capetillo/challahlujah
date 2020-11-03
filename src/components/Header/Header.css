@@ -22,12 +22,23 @@
     border-radius: 1%;
 }
 
+@media only screen and (max-width: 600px) {
+    .header {
+        width: 100vw;
+    }
+
+  #photo-header2 {
+        width: 60vw;
+        border-radius: 1%;
+    }
+  }
+
 @media only screen and (max-width: 1024px) {
     .header {
         width: 100vw;
     }
-    #photo-header1, #photo-header2, #photo-header3 {
-        width: 30vw;
+  #photo-header2{
+        width: 60vw;
         border-radius: 1%;
     }
   }
