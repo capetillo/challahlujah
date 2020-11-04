@@ -1,10 +1,10 @@
 import React from 'react';
-import './Contact.css';
+import './ContactMe.css';
 import emailjs from 'emailjs-com';
 import {Row, Col, Button, Collapse} from 'react-bootstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-export default function Contact() {
+export default function ContactMe() {
     function sendEmail(e) {
     e.preventDefault();
     
