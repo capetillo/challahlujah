@@ -3,7 +3,7 @@ import './App.css';
 import Navigation from './components/Navigation/Navigation';
 import Header from './components/Header/Header';
 import About from './components/About/About';
-import Reserve from './components/Reserve/Reserve';
+import Reservation from './components/Reservation/Reservation';
 import Contact from './components/Contact/Contact';
 import ChallahHacks from './components/ChallahHacks/ChallahHacks';
 import Footer from './components/Footer/Footer';
@@ -20,7 +20,7 @@ export default class App extends Component {
       <Navigation />
       <Header />
       <About />
-      <Reserve />
+      <Reservation />
       <Contact />
       <ChallahHacks />
       <Footer />

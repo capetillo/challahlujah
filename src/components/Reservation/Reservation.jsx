@@ -1,5 +1,5 @@
 import React from 'react';
-import './Reserve.css';
+import './Reservation.css';
 import plain from '../Images/plain.jpg';
 import poppyseed2 from '../Images/poppyseed.jpg';
 import sesame from '../Images/sesame.jpg';
@@ -7,7 +7,7 @@ import zaatar from '../Images/zaatar.jpg';
 import {Row, Col, Button} from 'react-bootstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-const Reserve = (props) => {
+const Reservation = (props) => {
     return (
         <div className="reserve">
             <ScrollAnimation animateOnce={true} duration={2} animateIn="fadeIn" animatePreScroll={false}>
@@ -60,4 +60,4 @@ const Reserve = (props) => {
     )
 }
 
-export default Reserve;
+export default Reservation;
