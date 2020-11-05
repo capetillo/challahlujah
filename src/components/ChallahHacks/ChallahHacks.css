@@ -14,10 +14,9 @@
 .subheader {
   font-size: calc(2em + 1vw);
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
   color: rgb(105, 131, 45);
   text-align: left;
-  font-style: normal;
+  font-style: italic;
 }
 
 .hack-context {

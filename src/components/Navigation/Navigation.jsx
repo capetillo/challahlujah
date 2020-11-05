@@ -107,7 +107,7 @@ class Navigation extends Component {
                             id="link"
                         > 
                         
-                        #challahhacks
+                        #challahacks
                        
                     </Link>
             </div>
