@@ -8,7 +8,8 @@
 }
 
 .about-ari-header {
-  color: rgb(110, 51, 41)
+  color: rgb(110, 51, 41);
+  font-style: normal;
 }
 
 .bio {

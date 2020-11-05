@@ -8,6 +8,7 @@
     font-size: calc(4em + 1.6vw);
     letter-spacing: 0.3vw;
     color: rgb(92, 115, 39);
+    font-style: normal;
 }
 
 .ingredients, .catchphrase {
