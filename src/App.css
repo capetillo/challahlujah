@@ -16,6 +16,7 @@
 p {
   font-family: 'Alata', sans-serif;
   font-size: calc(3em + 2vw);
+  font-style: italic;
   color: rgb(74, 74, 74)
  
 }
