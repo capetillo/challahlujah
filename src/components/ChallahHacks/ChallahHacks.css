@@ -13,10 +13,10 @@
 
 .subheader {
   font-size: calc(2em + 1vw);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Alata', sans-serif;
   color: rgb(105, 131, 45);
   text-align: left;
-  font-weight: 150;
+  font-weight: 300;
 }
 
 .hack-context {
